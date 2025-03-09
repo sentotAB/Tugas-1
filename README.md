@@ -53,13 +53,13 @@
 
   // Fungsi to take initial name to become capital
   function ambilInisialNamaCapital(name) {
-  const nameSplit = nama.split(' ');
-  const inisialName = namaSplit.map((name) => name.charAt(0).toUpperCase()).join('');
+  const nameSplit = name.split(' ');
+  const inisialName = nameSplit.map((name) => name.charAt(0).toUpperCase()).join('');
   return inisialName;
 }
 
 // take initial name to become capital
-  const inisialNamaCapital = ambilInisialNamaCapital(name);
+  const inisialNameCapital = ambilInisialNamaCapital(name);
 
   console.log(`Nama input: ${name}`);
   console.log(`Inisial nama capital: ${inisialNameCapital}`);
